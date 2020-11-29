@@ -1,0 +1,166 @@
+body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background-size: 10%;
+	background-image: url("../images/painted_white.jpg");
+	background-repeat: repeat-y;
+	background-size: 4000px;
+}
+
+.fixed-top {
+	padding: 0;
+	position: fixed;
+	width: 100%;
+	height: 150px;
+	z-index: 8;
+	top: 0;
+	background-image: url("../images/shapes_white.png");
+	background-size: 150px;
+	background-color: rgb(15, 3, 28);
+
+}
+
+@media only screen and (max-width: 1200px){
+	.fixed-top {
+	position: fixed;
+	height: 80px;
+	background-color: rgb(15, 3, 28);
+ }
+}
+
+@media only screen and (max-width: 900px){
+	.fixed-top {
+	height: 110px;
+	background-color: rgb(15, 3, 28);
+ }
+}
+
+@media only screen and (max-width: 375px){
+	.fixed-top {
+	height: 80px;
+	background-color: rgb(15, 3, 28);
+ }
+}
+
+#logoStoryRoom {
+	position: absolute;
+	width: 150px;
+	left: 45%;
+	top: 60px;
+}
+
+@media only screen and (max-width: 1200px) {
+	#logoStoryRoom{
+	 position: fixed;
+	 width: 100px;
+	 padding: 0px;
+	 top: 35px;
+	 left: 500px;
+ }
+}
+
+@media only screen and (max-width: 900px) {
+	#logoStoryRoom{
+	 position: fixed;
+	 width: 150px;
+	 padding: 0px;
+	 top: 25px;
+	 left: 350px;
+ }
+}
+
+@media only screen and (max-width: 500px) {
+	#logoStoryRoom{
+	 position: fixed;
+	 width: 150px;
+	 padding: 0px;
+	 top: 35px;
+	 left: 350px;
+ }
+}
+
+@media only screen and (max-width: 375px) {
+	 #logoStoryRoom{
+		position: fixed;
+		width: 100px;
+		padding: 0px;
+		top: 35px;
+		left: 100px;
+	}
+}
+
+section {
+	position: relative;
+	width: 100vw;
+	height: auto;
+	padding: 25px;
+	top: 70px;
+}
+
+p {
+	font-size: 5vw;
+	position: relative;
+	left: 300px;
+	top: 10px;
+	padding-right: 100px;
+	width: 70%;
+	height: 50%;
+}
+
+#firstWord {
+	font-size: 300px;
+	left: 0px;
+	font-size: 6vw;
+}
+
+@media only screen and (max-width: 375px) {
+	 #firstWord {
+		 left: 0;
+		 font-size: 30px;
+	 }
+}
+
+h1 {
+	font-size: 2vw;
+	font-family: 'Fredoka One', cursive;
+	position: relative;
+	left: 200px;
+}
+
+
+#bottomPage{
+	position: relative;
+	left: 100px;
+	bottom: 50px;
+	z-index: 8;
+	top: 50px;
+}
+
+
+#green_button {
+	width: 100px;
+	left: 700px;
+	animation: myframes 3s, ease-in-out 0s infinite;
+	animation-iteration-count: infinite;
+	z-index: 8;
+
+}
+
+@keyframes myframes {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.05);
+	}
+	100% {
+		transform: scale(1);
+	}
+
+}
+
+h3{
+	font-family: 'Fredoka One', cursive;
+	left: 500px;
+}

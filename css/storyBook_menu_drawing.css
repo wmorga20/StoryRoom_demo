@@ -1,0 +1,466 @@
+body {
+	background-image: url("../images/black_galaxy_5.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 1400px;
+	margin: 0;
+	z-index: -1;
+}
+
+@media only screen and (max-width: 375px){
+	 body {
+	 height: 1200px;
+	}
+}
+
+.fixed-top {
+	padding: 0;
+	position: fixed;
+	width: 100%;
+	height: 150px;
+	z-index: 8;
+	top: 0;
+	background-image: url("../images/shapes_white.png");
+	background-size: 150px;
+	background-color: rgb(15, 3, 28);
+
+}
+
+@media only screen and (max-width: 1200px){
+	.fixed-top {
+	position: fixed;
+	height: 80px;
+	background-color: rgb(15, 3, 28);
+ }
+}
+
+@media only screen and (max-width: 900px){
+	.fixed-top {
+	height: 110px;
+	background-color: rgb(15, 3, 28);
+ }
+}
+
+@media only screen and (max-width: 375px){
+	.fixed-top {
+	height: 80px;
+	background-color: rgb(15, 3, 28);
+ }
+}
+
+#logoStoryRoom {
+	position: absolute;
+	width: 150px;
+	left: 45%;
+	top: 60px;
+}
+
+@media only screen and (max-width: 1200px) {
+	#logoStoryRoom{
+	 position: fixed;
+	 width: 100px;
+	 padding: 0px;
+	 top: 35px;
+	 left: 500px;
+ }
+}
+
+@media only screen and (max-width: 900px) {
+	#logoStoryRoom{
+	 position: fixed;
+	 width: 150px;
+	 padding: 0px;
+	 top: 25px;
+	 left: 40%;
+ }
+}
+
+@media only screen and (max-width: 500px) {
+	#logoStoryRoom{
+	 position: fixed;
+	 width: 150px;
+	 padding: 0px;
+	 top: 35px;
+	 left: 20%;
+ }
+}
+
+@media only screen and (max-width: 375px) {
+   #logoStoryRoom{
+		position: fixed;
+		width: 100px;
+		padding: 0px;
+		top: 35px;
+		left: 150px;
+	}
+}
+
+@media only screen and (max-width: 500px ) {
+	              {
+
+	}
+}
+
+@media only screen and (max-width: 950px ) {
+	              {
+
+}
+}
+
+@media only screen and (max-width: 1280px ) {
+	              {
+
+}
+}
+
+p {
+	font-family: 'Fredoka One', cursive;
+	color: white;
+	width: 400px;
+	height: 100%;
+	border-width: 5px;
+	font-size: 3vw;
+	top: 130px;
+	right: -200px;
+	left: 50%;
+	padding-right: 300px;
+	z-index: 1;
+	position: relative;
+	opacity: 1;
+}
+
+#description1 {
+	position: relative;
+	top: -100px;
+	padding-left: 400px;
+	margin: 0;
+	margin-right: 0;
+	opacity: 0;
+	align-items: center;
+}
+
+@media only screen and (max-width: 1200px) {
+	#description1 {
+	position: relative;	
+	top: 100px;
+	padding-left: 0px;
+	left: 35px;
+	width: 550px;
+	opacity: 0;
+	font-size: 5vw;
+ }
+}
+
+@media only screen and (max-width: 900px) {
+	#description1 {
+	position: relative;	
+	top: 180px;
+	padding-left: 0px;
+	left: 25px;
+	width: 350px;
+	opacity: 0;
+	font-size: 5vw;
+ }
+}
+
+@media only screen and (max-width: 500px) {
+	#description1 {
+	position: relative;	
+	top: 60%;
+	padding-left: 0px;
+	left: 35px;
+	width: 450px;
+	opacity: 0;
+	font-size: 10vw;
+ }
+}
+
+@media only screen and (max-width: 375px) {
+	#description1 {
+	position: relative;	
+	top: 530px;
+	padding-left: 0px;
+	left: 70px;
+	width: 250px;
+	opacity: 1;
+	font-size: 8vw;
+	text-align: center;
+ }
+}
+
+#pandJ {
+	font-family: 'Fredoka One', cursive;
+  color: white;
+	border-width: 5px;
+	font-size: 5vw;
+	top: -150px;
+	right: -200px;
+	left: 40%;
+	padding-right: 300px;
+	animation: myframes 3s, ease-in-out 0s infinite;
+	animation-iteration-count: infinite;
+	z-index: 1;
+	position: relative;
+	opacity: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+	#pandJ {
+	opacity: 0;
+	left: 150px;
+	top: 5px;
+	width: 800px;
+	font-size: 7vw;
+	text-align: right;
+ }
+}
+
+
+@media only screen and (max-width: 900px) {
+	#pandJ {
+	opacity: 0;
+	left: 30%;
+	top: 50px;
+	width: 500px;
+	font-size: 6vw;
+	text-align: center;
+ }
+}
+
+
+@media only screen and (max-width: 500px) {
+	#pandJ {
+	opacity: 0;
+	left: 30%;
+	padding-right: 50px;
+	top: 30px;
+	width: 300px;
+	font-size: 14vw;
+ }
+}
+
+@media only screen and (max-width: 375px) {
+	#pandJ {
+	position: relative;	
+	opacity: 1;
+	left: 10%;
+	top: 50px;
+	width: 300px;
+	font-size: 12vw;
+	text-align: center;
+ }
+}
+
+@keyframes myframes {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.05);
+	}
+	100% {
+		transform: scale(1);
+	}
+
+}
+
+.img1 {
+	width: 100%;
+	position: relative;
+}
+
+#pandjFaces {
+	position: absolute;
+	top: 18%;
+	padding-left: 700px;
+	margin: 0;
+	margin-right: 0;
+	opacity: 0;
+	align-items: center;
+	width: 500px;
+}
+
+@media only screen and (max-width: 1200px) {
+	#pandjFaces {
+ position: absolute;
+ padding-left: 0px;
+ width: 700px;
+ left: 380px;
+ top: 170px;
+ opacity: 0;	 
+ }
+}
+
+@media only screen and (max-width: 900px) {
+	#pandjFaces {
+ position: absolute;
+ padding-left: 0px;
+ width: 650px;
+ left: 250px;
+ top: 170px;
+ opacity: 0;	 
+ }
+}
+
+@media only screen and (max-width: 500px) {
+	#pandjFaces {
+ position: absolute;
+ padding-left: 0px;
+ width: 700px;
+ left: 250px;
+ top: 220px;
+ opacity: 0;	 
+ }
+}
+
+
+@media only screen and (max-width: 375px) {
+	 #pandjFaces {
+	position: absolute;
+	padding-left: 0px;
+	width: 400px;
+	left: -30px;
+	top: 210px;
+	opacity: 1;	 
+	}
+}
+
+#pandjBook {
+	width: 20%;
+	height: 40%;
+	left: 18%;
+	padding-right: 300px;
+	position: relative;
+	top: 300px;
+	z-index: 2;
+}
+
+@media only screen and (max-width: 1200px) {
+	#pandjBook {
+	 position: relative;
+	 width: 10%;		
+	 top: 180px;
+	 left: 60px;
+}
+}
+
+@media only screen and (max-width: 900px) {
+	#pandjBook {
+	 position: relative;
+	 width: 20%;		
+	 top: 210px;
+	 left: 70px;
+}
+}
+
+@media only screen and (max-width: 500px) {
+	#pandjBook {
+	 position: relative;
+	 width: 30%;		
+	 top: 280px;
+	 left: 80px;
+}
+}
+
+@media only screen and (max-width: 375px) {
+	#pandjBook{
+		position: relative;
+		width: 20%;		
+		top: 1000px;
+		left: 150px;
+	
+ }
+}
+
+@media only screen and (max-width: 950px ) {
+							 {
+
+}
+}
+
+@media only screen and (max-width: 1280px ) {
+							 {
+
+ }
+}
+
+#instruction1 {
+	position: relative;
+	opacity: 0;
+}
+
+@media only screen and (max-width: 375px) {
+	#instruction1   {
+	opacity: 1;
+	top: 580px;
+	left: 150px;
+	}
+}
+
+#instruction2 {
+	position: relative;
+	opacity: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+	#instruction2 {
+	position: absolute;
+	opacity: 1;
+	top: 300px;
+	left: 40px;
+	font-size: 12px;
+}
+}
+
+@media only screen and (max-width: 900px) {
+	#instruction2 {
+	position: absolute;
+	opacity: 1;
+	top: 335px;
+	left: 40px;
+	font-size: 20px;
+}
+}
+
+@media only screen and (max-width: 500px) {
+	#instruction2 {
+	position: absolute;
+	opacity: 1;
+	top: 425px;
+	left: 40px;
+	font-size: 20px;
+}
+}
+
+@media only screen and (max-width: 375px) {
+	#instruction2 {
+	opacity: 0;	
+ }
+}
+
+
+
+#pandj_red {
+	width: 10%;
+	left: 50%;
+	padding-right: 100px;
+	position: relative;
+	top: 100px;
+	z-index: 2;
+}
+
+/*p {
+	font-family: 'Fredoka One', cursive;
+	color: white;
+	background-color: turquoise;
+	position: relative;
+	text-align: center;
+	text-indent: 25px;
+	font-size: 3vw;
+	width: 50vw;
+	height: 30vh;
+	left: 400px;
+	top: 100px;
+	z-index: 1;
+} */
